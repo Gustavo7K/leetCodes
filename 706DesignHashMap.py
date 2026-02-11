@@ -1,12 +1,11 @@
-#Design a HashMap without using any built-in hash table libraries. Implement the MyHashMap class.
 '''
-- key: This is the input data (or, more commonly, the integer hash value derived from the original key using a hash function) 
-that you want to store or retrieve in the hash table.
-- % (Modulo Operator): This operator returns the remainder of the division of the key by self.capacity.
-- self.capacity: This refers to the current size (number of available slots or "buckets") of the hash table's internal array.
-- index: The result of the operation is an integer that falls within the range [0, self.capacity - 1], which corresponds directly 
-to a valid index in the array.
-- And i used linked lists along with all of that to solve this problem. 
+- key: estes são os dados de entrada (ou, mais comumente, o valor inteiro do hash derivado da chave original usando uma função 
+hash) que você deseja armazenar ou recuperar na tabela hash.
+- % (Modulo Operator): Este operador retorna o resto da divisão da chave por self.capacity.
+- self.capacity: Refere-se ao tamanho atual (número de slots ou "buckets" disponíveis) do array interno da tabela hash.
+- index:  resultado da operação é um inteiro que está dentro do intervalo (ou "range") [0, self.capacity - 1], que corresponde 
+diretamente a um índice válido no array.
+- E foi utilizado listas encadeadas junto com tudo isso para resolver este problema.
 '''
 
 class ListNode:
